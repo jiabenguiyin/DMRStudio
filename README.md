@@ -2,7 +2,7 @@
 # DMR Studio —— 一个录制带弹幕直播的桌面管理工具
 
 <p align="center">
-  <img src="branding/dmrstudio-appicon-record-v1.svg" alt="DMR Studio Logo" width="120">
+  <img src="branding/logo.png" alt="DMR Studio Logo" width="120">
 </p>
 
 <p align="center">
