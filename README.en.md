@@ -32,6 +32,20 @@ It is designed to record live streams, manage recording jobs, save and render as
 
 **Languages:** Simplified Chinese and English. Switch between them in **System Settings → Interface Language**. You do not need a separate English installer.
 
+## Product Demo Video
+
+**DMR Studio 1.0 — 32-second introduction.** See the Windows livestream recording workflow, automatic recording when a stream goes live, danmaku rendering, and optional video uploads.
+
+<p align="center">
+  <a href="docs/media/DMRStudio-v1.0-promo.mp4" title="Watch DMR Studio 1.0 product demo">
+    <img src="docs/media/DMRStudio-v1.0-promo-cover.jpg" alt="DMR Studio 1.0 promo video thumbnail: livestream recording and danmaku rendering" width="860">
+  </a>
+</p>
+
+<p align="center"><strong>▶ <a href="docs/media/DMRStudio-v1.0-promo.mp4">Watch the 32-second demo</a></strong> · <a href="https://github.com/jiabenguiyin/DMRStudio/releases">Download for Windows</a></p>
+
+*This promotional video contains Simplified Chinese text. The application itself supports an English interface, shown in the screenshots below. Platform availability and individual features depend on the current version and configuration.*
+
 ## Screenshots
 
 The following images were captured from **DMR Studio v1.0, Build 18, running on Windows**. These are actual application screenshots, not mockups. No live-recording tasks or upload accounts were configured in the test environment, so the queues are empty.
