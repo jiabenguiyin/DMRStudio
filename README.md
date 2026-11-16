@@ -77,6 +77,15 @@ DMR Studio 是一款用于录制主播直播间的 Windows 桌面程序。它将
 
 具体可用的平台、录制方式及功能以当前版本的界面和设置为准。
 
+## 平台兼容性与使用教程
+
+DMR Studio 的直播平台适配实现涵盖 **B站（Bilibili）、抖音（Douyin）、虎牙（Huya）、斗鱼（Douyu）及 Twitch**，提供直播流监控、自动录播及部分平台的弹幕采集接口。具体能否录制成功，请以当前网络与平台接口状态为准；平台适配并非全部房间的实测保证。
+
+- **[Windows 直播自动录制新手教程](docs/quick-start.md)**：从下载安装、粘贴直播间链接、新建录播任务到启动引擎、验证录像文件。
+- **[平台支持列表与兼容性说明](docs/platforms.md)**：区分直播录制、弹幕录制、视频下载和 B站 / YouTube 自动投稿，避免误认功能。
+
+支持 **简体中文 / English 双语界面**。英文用户请查看 [English quick start](docs/quick-start.en.md) 和 [platform compatibility](docs/platforms.en.md)。
+
 ## 新手入门
 
 1. 前往 [Releases 发布页](https://github.com/jiabenguiyin/DMRStudio/releases) 下载最新 Windows 安装包。

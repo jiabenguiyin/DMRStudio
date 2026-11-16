@@ -76,6 +76,14 @@ The following images were captured from **DMR Studio v1.0, Build 18, running on 
 
 Available integrations, recording methods and individual features may depend on your version, stream platform and configuration.
 
+## Supported Platforms & Guides
+
+DMR Studio includes livestream and danmaku integration code for **Bilibili, Douyin, Huya, Douyu, and Twitch**. It is a Windows **live stream recorder** with **automatic livestream recording**, recording task management and optional danmaku rendering. Actual compatibility depends on third-party stream availability, current APIs, and the network; the presence of an adapter is not a guarantee.
+
+- **[How to record a livestream on Windows — Quick Start](docs/quick-start.en.md)**: Download, create a live recording task, start the engine, and confirm video output.
+- **[Supported platforms and compatibility](docs/platforms.en.md)**: What Bilibili, Douyin, Huya, Douyu and Twitch adapters do, and how recording differs from video downloads and optional uploads.
+- Also available: [中文录播教程](docs/quick-start.md) · [中文平台说明](docs/platforms.md).
+
 ## Getting Started
 
 1. Download the latest Windows installer from [GitHub Releases](https://github.com/jiabenguiyin/DMRStudio/releases).
