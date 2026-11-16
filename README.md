@@ -28,6 +28,24 @@
 
 DMR Studio 是一款用于录制主播直播间的 Windows 桌面程序。它将录制、弹幕渲染、上传、任务管理和常用设置整合在图形化界面中，让新手也能比较容易地上手。程序的录制与处理工作主要在自己的电脑上完成。
 
+## 软件界面预览
+
+以下为 **DMR Studio v1.0（Build 18）在 Windows 测试环境中实际运行的截图**，不是设计效果图。测试环境未添加直播任务、未登录上传账号，因此任务与渲染队列显示为空；后续版本界面可能调整。
+
+<p align="center">
+  <a href="docs/screenshots/01-home.jpg">
+    <img src="docs/screenshots/01-home.jpg" alt="DMR Studio Windows 直播录播软件首页与运行控制台" width="860">
+  </a>
+</p>
+<p align="center"><sub>首页 · 运行控制台与录制状态</sub></p>
+
+| 直播录播任务管理 | 渲染中心 |
+|:---:|:---:|
+| <a href="docs/screenshots/02-recording-tasks.jpg"><img src="docs/screenshots/02-recording-tasks.jpg" alt="直播录制任务和直播间监控界面" width="420"></a> | <a href="docs/screenshots/03-render-center.jpg"><img src="docs/screenshots/03-render-center.jpg" alt="录播视频弹幕渲染队列和上传状态界面" width="420"></a> |
+| **录播管理** · 直播监控与任务状态 | **渲染中心** · 处理队列、异常与上传记录 |
+| <a href="docs/screenshots/04-danmaku-settings.jpg"><img src="docs/screenshots/04-danmaku-settings.jpg" alt="录播弹幕渲染字号透明度显示区域调节" width="420"></a> | <a href="docs/screenshots/05-system-settings.jpg"><img src="docs/screenshots/05-system-settings.jpg" alt="DMR Studio Windows 桌面端系统设置界面" width="420"></a> |
+| **弹幕渲染调节** · 字号、透明度与显示区域 | **系统设置** · 语言、主题及渲染编码器 |
+
 ## 主要功能
 
 - **直播间监控与自动录制**：集中管理直播录制任务，按任务设置和直播状态运行。
