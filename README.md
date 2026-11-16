@@ -86,6 +86,10 @@ DMR Studio 的直播平台适配实现涵盖 **B站（Bilibili）、抖音（Dou
 
 支持 **简体中文 / English 双语界面**。英文用户请查看 [English quick start](docs/quick-start.en.md) 和 [platform compatibility](docs/platforms.en.md)。
 
+## YAML 高级配置与 DanmakuRender 兼容
+
+需要进一步调整直播录制、弹幕样式、分段时长、FFmpeg 渲染或自动投稿？查看 **[DMR Studio YAML 配置详解](docs/yaml-configuration.md)**（兼容性说明、参数参考、四份安全配置示例），避免直接套用 DanmakuRender 上游专有参数。英文版：[YAML Configuration Guide](docs/yaml-configuration.en.md)。
+
 ## 新手入门
 
 1. 前往 [Releases 发布页](https://github.com/jiabenguiyin/DMRStudio/releases) 下载最新 Windows 安装包。

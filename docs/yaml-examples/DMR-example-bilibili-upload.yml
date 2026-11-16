@@ -1,0 +1,31 @@
+# Bilibili publishing template for DMR Studio.
+# Uploading is deliberately OFF until account authorization and content rights
+# have been verified. Replace the URL, account, metadata and source as needed.
+common_event_args:
+  auto_render: false
+  auto_upload: false  # CHANGE TO true ONLY AFTER verifying the configuration
+  auto_clean: false
+  auto_transcode: false
+
+download_args:
+  dltype: live
+  url: 'https://live.bilibili.com/123456'
+  output_dir: './直播回放'
+  engine: auto
+  video: true
+  danmaku: true
+  segment: 3600
+
+upload_args:
+  src_video:
+    target: bilibili
+    account: 'REPLACE_WITH_YOUR_LOCAL_ACCOUNT'
+    retry: 3
+    realtime: false
+    min_length: 120
+    title: '[{STREAMER.NAME}/直播回放] {TITLE}'
+    desc: '请根据实际内容填写简介及必要的版权信息'
+    tag: '直播回放'
+    copyright: 2   # 2=转载; set metadata according to actual rights
+    source: 'https://live.bilibili.com/123456'
+    tid: 65         # Confirm the current Bilibili category ID

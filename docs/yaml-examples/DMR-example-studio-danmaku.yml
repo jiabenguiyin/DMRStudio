@@ -1,0 +1,40 @@
+# DMR STUDIO-SPECIFIC: top-level dm_args overlay, not a portable
+# DanmakuRender upstream task template. Use the GUI or YAML editor.
+# Replace the example URL before running.
+common_event_args:
+  auto_render: true
+  auto_upload: false
+  auto_clean: false
+  auto_transcode: false
+
+download_args:
+  dltype: live
+  url: 'https://live.bilibili.com/123456'
+  output_dir: './直播回放'
+  engine: auto
+  segment: 3600
+  video: true
+  danmaku: true
+  output_format: flv
+
+# Values here override common danmaku defaults for this task.
+dm_args:
+  dm_format: ass
+  font: 'Microsoft YaHei'
+  fontsize: 36
+  dmrate: 0.4
+  margin_h: 6
+  margin_w: 12
+  dst: 20
+  dmduration: 16
+  opacity: 0.8
+  auto_fontsize: true
+  outlinecolor: '000000'
+  outlinesize: 1.0
+  dm_filter:
+    keywords: ['example-blocked-word']
+    username: []
+    max_length: 0
+
+# Uses global.yml render_args defaults (do not force NVENC on CPU-only PCs).
+# Requires a valid ASS danmaku file for successful rendering.

@@ -1,0 +1,20 @@
+# Basic live recording task; common to DanmakuRender-style and DMR Studio.
+# Rename to DMR-your-task.yml and replace the URL/recording directory.
+# Example room ID is illustrative, NOT a confirmed live room.
+common_event_args:
+  auto_render: false
+  auto_upload: false
+  auto_clean: false
+  auto_transcode: false
+
+download_args:
+  dltype: live
+  url: 'https://live.bilibili.com/123456'
+  output_dir: './直播回放'
+  output_name: '{STREAMER.NAME}-{CTIME.YEAR}-{CTIME.MONTH:02d}-{CTIME.DAY:02d}'
+  engine: auto
+  segment: 3600
+  output_format: flv
+  video: true
+  danmaku: true
+  stop_wait_time: 15

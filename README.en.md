@@ -84,6 +84,10 @@ DMR Studio includes livestream and danmaku integration code for **Bilibili, Douy
 - **[Supported platforms and compatibility](docs/platforms.en.md)**: What Bilibili, Douyin, Huya, Douyu and Twitch adapters do, and how recording differs from video downloads and optional uploads.
 - Also available: [中文录播教程](docs/quick-start.md) · [中文平台说明](docs/platforms.md).
 
+## Advanced YAML Configuration & DanmakuRender Compatibility
+
+For recording settings, danmaku styling, FFmpeg rendering, and optional publishing, read the **[DMR Studio YAML Configuration Guide](docs/yaml-configuration.en.md)**. It explains compatibility differences from upstream DanmakuRender, configuration precedence, import limitations, and includes four safe, editable YAML samples. [中文文档](docs/yaml-configuration.md).
+
 ## Getting Started
 
 1. Download the latest Windows installer from [GitHub Releases](https://github.com/jiabenguiyin/DMRStudio/releases).

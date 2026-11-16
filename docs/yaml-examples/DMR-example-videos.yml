@@ -1,0 +1,19 @@
+# Video-download task, NOT a livestream monitoring task.
+# Replace sample URL with a real accessible Bilibili video URL.
+common_event_args:
+  auto_render: false
+  auto_upload: false
+  auto_clean: false
+  auto_transcode: false
+
+download_args:
+  dltype: videos
+  url: 'https://www.bilibili.com/video/BV1ExampleID'
+  output_dir: './视频下载'
+  output_name: ~
+  engine: ~
+  quality: ~
+  danmaku: false
+  subtitle: false
+  check_interval: 600
+  extra_args: []
