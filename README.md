@@ -48,7 +48,7 @@ DMR Studio 是一款用于录制主播直播间的 Windows 桌面程序。它将
 
 ## 软件界面预览
 
-以下为 **DMR Studio v1.0（Build 18）在 Windows 测试环境中实际运行的截图**，不是设计效果图。测试环境未添加直播任务、未登录上传账号，因此任务与渲染队列显示为空；后续版本界面可能调整。
+以下为 **DMR Studio v1.0 在 Windows 测试环境中实际运行的截图**，不是设计效果图。测试环境未添加直播任务、未登录上传账号，因此任务与渲染队列显示为空；后续版本界面可能调整。
 
 <p align="center">
   <a href="docs/screenshots/01-home.jpg">

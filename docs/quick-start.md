@@ -2,7 +2,7 @@
 
 [项目主页](../README.md) · [平台适配说明](platforms.md) · [English](quick-start.en.md)
 
-适用版本：**DMR Studio v1.0（Build 18）**，Windows 桌面版，支持简体中文和 English。以当前安装版的实际界面为准。
+适用版本：**DMR Studio v1.0**，Windows 桌面版，支持简体中文和 English。以当前安装版的实际界面为准。
 
 ## 1. 安装与初次启动
 

@@ -2,7 +2,7 @@
 
 [English README](../README.en.md) · [Quick start](quick-start.en.md) · [简体中文](platforms.md)
 
-This document describes platform integration in **DMR Studio v1.0 (Build 18)**, a Windows **livestream recorder** with **automatic stream recording**, **danmaku recording**, and **danmaku rendering** features.
+This document describes platform integration in **DMR Studio v1.0**, a Windows **livestream recorder** with **automatic stream recording**, **danmaku recording**, and **danmaku rendering** features.
 
 **Having an adapter does not mean every platform or live room has been verified.** Third-party APIs, login challenges, and networking conditions can change.
 

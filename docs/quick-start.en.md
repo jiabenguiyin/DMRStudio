@@ -2,7 +2,7 @@
 
 [Project home](../README.en.md) · [Platform compatibility](platforms.en.md) · [简体中文](quick-start.md)
 
-For **DMR Studio v1.0 (Build 18)** on Windows. Both **English** and Simplified Chinese are supported. Follow the labels in your installed version if the interface changes.
+For **DMR Studio v1.0** on Windows. Both **English** and Simplified Chinese are supported. Follow the labels in your installed version if the interface changes.
 
 ## 1. Install and launch
 
@@ -59,6 +59,6 @@ For help, open an [Issue](https://github.com/jiabenguiyin/DMRStudio/issues) with
 
 ## Livestream clips vs automatic highlight detection
 
-DMR Studio is for **livestream recording, segmented video files, danmaku capture, rendering, and optional uploads**. These features can supply footage for editing livestream clips. They do **not** mean that Build 18 automatically detects highlights and creates short clips.
+DMR Studio is for **livestream recording, segmented video files, danmaku capture, rendering, and optional uploads**. These features can supply footage for editing livestream clips. They do **not** mean that DMR Studio automatically detects highlights and creates short clips.
 
 See also: [platform compatibility](platforms.en.md) · [real English interface screenshots](../README.en.md#screenshots).

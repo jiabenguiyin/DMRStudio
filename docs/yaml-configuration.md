@@ -2,7 +2,7 @@
 
 [项目主页](../README.md) · [English](yaml-configuration.en.md) · [新手教程](quick-start.md) · [平台兼容性](platforms.md)
 
-本手册基于 **DMR Studio v1.0 / Build 18 源码** 的配置加载器、桌面配置编辑器、任务生成器、旧配置导入器和录制/渲染/上传引擎编写，并参考 [DanmakuRender v5 官方使用指南](https://github.com/SmallPeaches/DanmakuRender/blob/v5/docs/usage.md) 和 [上游配置样例](https://github.com/SmallPeaches/DanmakuRender/tree/v5/configs)。本文是重新整理的 Studio 使用说明，**不等同于“DanmakuRender 全部配置直接兼容”**。随后的版本请以实际程序为准。
+本手册基于 **DMR Studio v1.0 源码** 的配置加载器、桌面配置编辑器、任务生成器、旧配置导入器和录制/渲染/上传引擎编写，并参考 [DanmakuRender v5 官方使用指南](https://github.com/SmallPeaches/DanmakuRender/blob/v5/docs/usage.md) 和 [上游配置样例](https://github.com/SmallPeaches/DanmakuRender/tree/v5/configs)。本文是重新整理的 Studio 使用说明，**不等同于“DanmakuRender 全部配置直接兼容”**。随后的版本请以实际程序为准。
 
 ## 1. 工作原理：GUI、YAML、引擎怎样配合？
 
@@ -29,14 +29,14 @@ DMR Studio 的图形界面负责管理任务、编辑 YAML、保存配置与启�
 
 ## 2. DanmakuRender 原版与 Studio 的差异
 
-| 项目 | DanmakuRender v5 常见写法 | DMR Studio Build 18 |
+| 项目 | DanmakuRender v5 常见写法 | DMR Studio |
 |---|---|---|
 | 直播任务 | <code>DMR-xxx.yml</code> + <code>common_event_args</code> / <code>download_args</code> | 基本兼容 |
 | 直播弹幕参数 | 放在 <code>download_args</code> | 同时支持顶层 <code>dm_args</code>，供 Studio GUI 编辑和覆盖 |
 | 任务目录 | 全局 <code>dmr_engine_args.config_path</code> | 使用 <code>dmr_engine_args.dynamic_config_path</code>；运行时目录由 Studio 管理 |
 | 直播/视频任务类型 | <code>live</code>、<code>videos</code>，原版还有 <code>virtual</code> | 当前 Studio 创建/导入只接收 <code>live</code> 或 <code>videos</code> |
 | 上传到多个账号 | 上游任务可使用列表、组合视频类型 | 底层存在部分列表处理逻辑，但 **Studio 文件导入器会拒绝多目标上传列表**，不要当作可直接导入格式 |
-| XML 弹幕自动转换 | 原版新文档介绍 <code>render_args.dmrender.dmconvert</code> | Studio Build 18 渲染路径未确认具备同样的自动转换，**不能照搬宣称支持** |
+| XML 弹幕自动转换 | 原版新文档介绍 <code>render_args.dmrender.dmconvert</code> | 当前 DMR Studio 的渲染路径未确认具备同样的自动转换，**不能照搬宣称支持** |
 | 弹幕模板 | 上游介绍 <code>dm_template.danmaku</code> 等 | Studio 默认模板还包含 <code>dm_template.ass_text</code>，两种机制用途不同 |
 | WebUI 服务设置 | 上游可见 <code>webservice_kernel_args.host/port</code> | Studio 桌面服务采用自身的访问控制，不要复制上游开放监听及示例登录密码 |
 | 默认下播等待 | 上游全局模板为 120 分钟 | Studio 当前内置模板为 15 分钟；具体任务可覆盖 |
@@ -203,7 +203,7 @@ render_args:
 
 需要 NVIDIA NVENC 等硬件编码时，先在 Studio「系统设置」验证当前机器的可用编码器。CPU 兼容示例中的 <code>libx264</code> 仅用于展示；选择编码器会影响速度、体积与 GPU 占用。
 
-**ASS 与 XML 区别：** 当前 Studio 的弹幕渲染主要依赖现有弹幕文件与 FFmpeg 字幕滤镜。上游新文档提供的 XML→ASS 转换配置及外部依赖，不应视作 Studio Build 18 已完整支持；要处理外部 XML，先验证实际转换路径。
+**ASS 与 XML 区别：** 当前 Studio 的弹幕渲染主要依赖现有弹幕文件与 FFmpeg 字幕滤镜。上游新文档提供的 XML→ASS 转换配置及外部依赖，不应视作 当前 DMR Studio 已完整支持；要处理外部 XML，先验证实际转换路径。
 
 ## 8. upload_args：B站 / YouTube / 自定义上传
 

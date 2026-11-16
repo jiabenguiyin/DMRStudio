@@ -48,7 +48,7 @@ It is designed to record live streams, manage recording jobs, save and render as
 
 ## Screenshots
 
-The following images were captured from **DMR Studio v1.0, Build 18, running on Windows**. These are actual application screenshots, not mockups. No live-recording tasks or upload accounts were configured in the test environment, so the queues are empty.
+The following images were captured from **DMR Studio v1.0 running on Windows**. These are actual application screenshots, not mockups. No live-recording tasks or upload accounts were configured in the test environment, so the queues are empty.
 
 <p align="center">
   <a href="docs/screenshots/en/01-home.jpg"><img src="docs/screenshots/en/01-home.jpg" alt="DMR Studio dashboard for Windows livestream recording" width="860"></a>
@@ -62,7 +62,7 @@ The following images were captured from **DMR Studio v1.0, Build 18, running on 
 | <a href="docs/screenshots/en/04-danmaku-settings.jpg"><img src="docs/screenshots/en/04-danmaku-settings.jpg" alt="Danmaku rendering layout opacity and font size controls" width="420"></a> | <a href="docs/screenshots/en/05-system-settings.jpg"><img src="docs/screenshots/en/05-system-settings.jpg" alt="DMR Studio desktop app system and language settings" width="420"></a> |
 | **Danmaku settings** — font size, opacity and display layout | **System settings** — language, theme and encoder |
 
-*All screenshots above show the actual English-language interface of DMR Studio v1.0 (Build 18), captured on Windows with a fresh, empty test profile.*
+*All screenshots above show the actual English-language interface of DMR Studio v1.0, captured on Windows with a fresh, empty test profile.*
 
 ## Features
 

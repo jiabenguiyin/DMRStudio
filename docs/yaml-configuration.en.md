@@ -2,7 +2,7 @@
 
 [English README](../README.en.md) · [简体中文](yaml-configuration.md) · [Quick start](quick-start.en.md) · [Supported platforms](platforms.en.md)
 
-This guide is grounded in **DMR Studio v1.0 / Build 18** configuration-loader, task-generation, YAML editor, import, and recording-engine code. It is informed by the [DanmakuRender v5 upstream user guide](https://github.com/SmallPeaches/DanmakuRender/blob/v5/docs/usage.md), but **Studio is not guaranteed to support every field or feature in the latest upstream release**.
+This guide is grounded in **DMR Studio v1.0** configuration-loader, task-generation, YAML editor, import, and recording-engine code. It is informed by the [DanmakuRender v5 upstream user guide](https://github.com/SmallPeaches/DanmakuRender/blob/v5/docs/usage.md), but **Studio is not guaranteed to support every field or feature in the latest upstream release**.
 
 ## 1. YAML files and the execution pipeline
 
@@ -29,14 +29,14 @@ In particular, Studio's GUI-generated top-level <code>dm_args</code> is merged i
 
 ## 2. Key differences from upstream DanmakuRender
 
-| Area | Upstream DanmakuRender | DMR Studio Build 18 |
+| Area | Upstream DanmakuRender | DMR Studio |
 |---|---|---|
 | Basic task structure | <code>common_event_args</code> and <code>download_args</code> | Generally compatible |
 | Danmaku style | Usually under task <code>download_args</code> | Also supports top-level <code>dm_args</code> |
 | Config directory | <code>dmr_engine_args.config_path</code> | Uses managed <code>dmr_engine_args.dynamic_config_path</code> |
 | Task types | Includes <code>live</code>, <code>videos</code>, and newer <code>virtual</code> support | Studio creation and legacy import accept <code>live</code> and <code>videos</code>, not virtual |
 | Multiple upload targets | Upstream task lists / combined types | Some engine-level handling exists, but Studio's legacy importer rejects list-valued upload targets |
-| XML-to-ASS | Documented by upstream via <code>render_args.dmrender.dmconvert</code> | Automatic XML conversion is **not confirmed in Studio Build 18** |
+| XML-to-ASS | Documented by upstream via <code>render_args.dmrender.dmconvert</code> | Automatic XML conversion is **not confirmed in the current DMR Studio version** |
 | Web service | Upstream has host, port, and login YAML | Studio manages its own desktop access controls; do not paste upstream server defaults |
 | Offline grace period | Upstream global example 120 minutes | Studio built-in default 15 minutes |
 
@@ -145,7 +145,7 @@ The render pipeline uses FFmpeg and recorded ASS files. Main settings:
 | <code>render_args.dmrender.advanced_render_args.filter_complex</code> | Advanced video filter override |
 | <code>render_args.transcode.*</code> | Similar settings for source-video transcode |
 
-Choose an encoder actually available on your hardware (for instance, <code>libx264</code> on CPU). Do not assume NVIDIA NVENC is present on every Windows computer. Upstream XML danmaku conversion settings should not be advertised as confirmed Studio Build 18 features.
+Choose an encoder actually available on your hardware (for instance, <code>libx264</code> on CPU). Do not assume NVIDIA NVENC is present on every Windows computer. Upstream XML danmaku conversion settings should not be advertised as features confirmed in the current DMR Studio version.
 
 ## 8. upload_args and clean_args
 
