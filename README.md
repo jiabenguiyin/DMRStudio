@@ -1,5 +1,7 @@
 # DMR Studio — Windows 直播录播软件｜自动录制、弹幕录制与录播管理
 
+<p align="center"><strong>语言 / Language：</strong> <a href="README.md">简体中文</a> · <a href="README.en.md">English</a></p>
+
 <p align="center">
   <img src="branding/LOGO.png" alt="DMR Studio 直播录播与弹幕录制管理软件" width="360">
 </p>
@@ -21,6 +23,8 @@
   <a href="https://github.com/jiabenguiyin/DMRStudio/releases">查看更新日志</a> ·
   <a href="https://github.com/jiabenguiyin/DMRStudio/issues">反馈问题</a>
 </p>
+
+<p align="center"><i>DMR Studio is a Windows livestream recorder with automatic recording, danmaku capture and rendering, recording task management, and video upload. English UI is available.</i></p>
 
 ## DMR Studio 是什么？
 
@@ -55,6 +59,7 @@ DMR Studio 是一款用于录制主播直播间的 Windows 桌面程序。它将
 - **渲染与上传管理**：在录制后按配置处理视频，并使用已配置的平台账号进行上传。
 - **图形界面和托盘常驻**：集中整理常用设置，支持从系统托盘进入程序和执行快捷操作。
 - **覆盖升级尽量保留数据**：提供安装、升级与卸载入口；升级时尽量保留现有配置、任务数据和登录信息。
+- **简体中文 / English 双语界面**：在「系统设置 → 界面语言」中切换中文或英文，适合不同地区用户。
 
 具体可用的平台、录制方式及功能以当前版本的界面和设置为准。
 
