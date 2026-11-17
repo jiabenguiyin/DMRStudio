@@ -38,13 +38,13 @@ It is designed to record live streams, manage recording jobs, save and render as
 
 <p align="center">
   <a href="https://www.bilibili.com/video/BV13rWC6qEgg" title="Watch the full DMR Studio demo on Bilibili">
-    <img src="docs/media/DMRStudio-v1.0-promo-preview.webp" alt="DMR Studio product demo: silent 15-second animated preview; click for the full video" width="800">
+    <img src="docs/media/DMRStudio-v1.0-promo-preview.webp" alt="DMR Studio product demo: silent 16-second full-length preview at 2× speed; click for the full video" width="800">
   </a>
 </p>
 
 <p align="center"><strong>▶ <a href="https://www.bilibili.com/video/BV13rWC6qEgg">Watch the full video on Bilibili (with sound)</a></strong> · <a href="https://raw.githubusercontent.com/jiabenguiyin/DMRStudio/main/docs/media/DMRStudio-v1.0-promo.mp4">Original MP4</a> · <a href="https://github.com/jiabenguiyin/DMRStudio/releases">Download for Windows</a></p>
 
-*The preview above is a silent 15-second loop. The full promotional video contains Simplified Chinese text. The application itself supports an English interface, shown in the screenshots below. Platform availability and individual features depend on the current version and configuration.*
+*The preview above loops the full promotional video at 2× speed without audio (approximately 16 seconds). The full promotional video contains Simplified Chinese text. The application itself supports an English interface, shown in the screenshots below. Platform availability and individual features depend on the current version and configuration.*
 
 ## Screenshots
 
