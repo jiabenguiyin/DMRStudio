@@ -37,14 +37,14 @@ It is designed to record live streams, manage recording jobs, save and render as
 **DMR Studio 1.0 — 32-second introduction.** See the Windows livestream recording workflow, automatic recording when a stream goes live, danmaku rendering, and optional video uploads.
 
 <p align="center">
-  <a href="docs/media/DMRStudio-v1.0-promo.mp4" title="Watch DMR Studio 1.0 product demo">
-    <img src="docs/media/DMRStudio-v1.0-promo-cover.jpg" alt="DMR Studio 1.0 promo video thumbnail: livestream recording and danmaku rendering" width="860">
+  <a href="https://www.bilibili.com/video/BV13rWC6qEgg" title="Watch the full DMR Studio demo on Bilibili">
+    <img src="docs/media/DMRStudio-v1.0-promo-preview.webp" alt="DMR Studio product demo: silent 15-second animated preview; click for the full video" width="800">
   </a>
 </p>
 
-<p align="center"><strong>▶ <a href="docs/media/DMRStudio-v1.0-promo.mp4">Watch the 32-second demo</a></strong> · <a href="https://github.com/jiabenguiyin/DMRStudio/releases">Download for Windows</a></p>
+<p align="center"><strong>▶ <a href="https://www.bilibili.com/video/BV13rWC6qEgg">Watch the full video on Bilibili (with sound)</a></strong> · <a href="https://raw.githubusercontent.com/jiabenguiyin/DMRStudio/main/docs/media/DMRStudio-v1.0-promo.mp4">Original MP4</a> · <a href="https://github.com/jiabenguiyin/DMRStudio/releases">Download for Windows</a></p>
 
-*This promotional video contains Simplified Chinese text. The application itself supports an English interface, shown in the screenshots below. Platform availability and individual features depend on the current version and configuration.*
+*The preview above is a silent 15-second loop. The full promotional video contains Simplified Chinese text. The application itself supports an English interface, shown in the screenshots below. Platform availability and individual features depend on the current version and configuration.*
 
 ## Screenshots
 

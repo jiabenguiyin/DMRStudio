@@ -37,14 +37,14 @@ DMR Studio 是一款用于录制主播直播间的 Windows 桌面程序。它将
 **DMR Studio 1.0 正式发布宣传片（32 秒）**：了解 Windows 直播录播、开播自动录制、弹幕渲染及自动投稿的使用场景。
 
 <p align="center">
-  <a href="docs/media/DMRStudio-v1.0-promo.mp4" title="点击观看 DMR Studio 1.0 产品演示视频">
-    <img src="docs/media/DMRStudio-v1.0-promo-cover.jpg" alt="DMR Studio 1.0 宣传视频封面：直播录播，一台电脑搞定" width="860">
+  <a href="https://www.bilibili.com/video/BV13rWC6qEgg" title="在哔哩哔哩观看完整宣传片">
+    <img src="docs/media/DMRStudio-v1.0-promo-preview.webp" alt="DMR Studio 产品演示：15 秒无声动态预览，点击前往 B站观看完整版" width="800">
   </a>
 </p>
 
-<p align="center"><strong>▶ <a href="docs/media/DMRStudio-v1.0-promo.mp4">点击观看 32 秒官方演示视频</a></strong> · <a href="https://github.com/jiabenguiyin/DMRStudio/releases">下载 Windows 正式版</a></p>
+<p align="center"><strong>▶ <a href="https://www.bilibili.com/video/BV13rWC6qEgg">在 B站观看完整宣传片（含声音）</a></strong> · <a href="https://raw.githubusercontent.com/jiabenguiyin/DMRStudio/main/docs/media/DMRStudio-v1.0-promo.mp4">原版 MP4</a> · <a href="https://github.com/jiabenguiyin/DMRStudio/releases">下载 Windows 正式版</a></p>
 
-> 视频为功能介绍演示。具体平台可用性、录制及上传能力以当前版本与实际配置为准。
+> 上方为 15 秒无声循环预览。完整视频可在哔哩哔哩播放。具体平台可用性、录制及上传能力以实际版本与配置为准。
 
 ## 软件界面预览
 
